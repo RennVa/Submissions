@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.full-width{
+    width: 100%;
+}
+.logo-banner{
+    background-color: #222F3E;
+}
+.graybg{
+    background-color: #354758;
+}
+.white-text{
+    color: white;
+}
+.pad5{
+    padding: 5px;
+}
+.text-centered{
+    text-align: center;
+}
+.orangebg{
+    background-color: #F56600;
+}
+.margin20{
+    margin: 20px;
+}
+.greenbox{
+    background-image: url(./assets/bg-image.png);
+    padding: 40px;
+}
+.whitebg{
+    background-color: white;
+}
+.black-text{
+    font-size: 16pt;
+}
+.cyan-text{
+    color: cornflowerblue;
+    font-size: 10pt;
+}
+.bold-text{
+    font-weight: bold;
+}
+.same-line img{ 
+    margin: 25px;
+    height: 60vh;
+    max-width: 20vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.large-box img{
+    height: 60vh;
+}
+.graybg span{
+    padding: 5px;
+}
+main{
+    background-color: whitesmoke;
+}
+.inline-boxes div{
+    display: inline-block;   
+}
+
+.itembox span{
+    display: block;
+}
+.itembox img{
+    max-width: 20vh;
+    height: 125px;
+    object-fit: cover;
+    padding: 5px;
+}
+.inline-items div{
+    display: block;
+}
+.itembox{
+    padding: 5px;
+    margin: 10px;
+}
+.itembox .black-text{
+    font-weight: bold;
+}
