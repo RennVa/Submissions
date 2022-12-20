@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.full-width{
+    width: 100%;
+}
+.logo-banner{
+    background-color: #222F3E;
+}
+.graybg{
+    background-color: #354758;
+}
+.white-text{
+    color: white;
+}
+.pad5{
+    padding: 5px;
+}
+.text-centered{
+    text-align: center;
+}
+.orangebg{
+    background-color: #F56600;
+}
+.margin20{
+    margin: 20px;
+}
+.greenbox{
+    background-image: url(./assets/bg-image.png);
+    padding: 40px;
+}
+.whitebg{
+    background-color: white;
+}
+.black-text{
+    font-size: 16pt;
+}
+.cyan-text{
+    color: cornflowerblue;
+    font-size: 10pt;
+}
+.bold-text{
+    font-weight: bold;
+}
+.same-line img{ 
+    margin: 25px;
+    height: 60vh;
+    max-width: 20vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.same-line-img{
+    position: relative;
+    display: inline-block;
+}
+.overlay-same-line-img{
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+    margin: 25px;
+    display: none;
+    transition: all 2s;
+
+}
+.same-line-img:hover .overlay-same-line-img{
+    display: inline-block;
+}
+.heart-icon{
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    font-size: 30pt;
+    opacity: 1;
+    z-index: 2;
+}
+.add-to-cart{
+    background-color: cadetblue;
+    padding: 10px 50px;
+    font-size: 15pt;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    color: white;
+    border-radius: 15px;
+}
+
+
+.large-box img{
+    height: 60vh;
+}
+.graybg span{
+    padding: 5px;
+}
+main{
+    background-color: whitesmoke;
+}
+.inline-boxes div{
+    display: inline-block;   
+}
+
+.itembox span{
+    display: block;
+}
+.itembox img{
+    max-width: 20vh;
+    height: 125px;
+    object-fit: cover;
+    padding: 5px;
+}
+.inline-items div{
+    display: block;
+}
+.itembox{
+    padding: 5px;
+    margin: 10px;
+}
+.itembox .black-text{
+    font-weight: bold;
+}
